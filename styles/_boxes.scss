@@ -1,0 +1,41 @@
+#box-1{
+    
+    text-align: center;
+    
+    min-height: 200px;
+    padding: 1.5rem;
+    margin: 0.5rem;  
+}
+
+#box-2{
+    width: 90%;
+    text-align: left;
+    padding: 3rem;
+    margin: 0.5rem;
+    
+}
+
+#box-3{
+    text-align: left;
+    padding: 3rem;
+    height: 300px;
+}
+
+#box-4{
+    text-align: left;
+    padding: 3rem;
+    height: 300px;
+}
+
+#box-5{
+    text-align: left;
+    padding: 3rem;
+    height: 300px;
+}
+
+.image-container{
+    display: flex;
+    justify-content:left;
+    align-self: flex-end;
+    padding: 1rem 0;
+}
