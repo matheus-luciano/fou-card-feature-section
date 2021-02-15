@@ -1,41 +1,63 @@
+@import 'variables';
+
 #box-1{
-    
     text-align: center;
-    
     min-height: 200px;
     padding: 1.5rem;
     margin: 0.5rem;  
 }
 
 #box-2{
-    width: 90%;
+    min-width: 200px;
     text-align: left;
-    padding: 3rem;
-    margin: 0.5rem;
+    padding: 2rem 2rem 1rem 2rem;
+    margin: 1rem;
+    border-radius: 10px;
+    background-color: $Very-Light-Gray;
     
+    border-top-style: solid;
+    border-top-color: $Cyan;
+    border-top-width: 7px;
 }
 
 #box-3{
     text-align: left;
-    padding: 3rem;
-    height: 300px;
+    padding: 2rem 2rem 1rem 2rem;
+    margin: 1rem;
+    border-radius: 10px;
+    background-color: $Very-Light-Gray;
+
+    border-top-style: solid;
+    border-top-color: $Red;
+    border-top-width: 7px;
 }
 
 #box-4{
     text-align: left;
-    padding: 3rem;
-    height: 300px;
+    padding: 2rem 2rem 1rem 2rem;
+    margin: 1rem;
+    border-radius: 10px;
+    background-color: $Very-Light-Gray;
+
+    border-top-style: solid;
+    border-top-color: $Orange;
+    border-top-width: 7px;
 }
 
 #box-5{
     text-align: left;
-    padding: 3rem;
-    height: 300px;
+    padding: 2rem 2rem 1rem 2rem;
+    margin: 1rem;
+    border-radius: 10px;
+    background-color: $Very-Light-Gray;
+
+    border-top-style: solid;
+    border-top-color: $Blue;
+    border-top-width: 7px;
+    
 }
 
 .image-container{
-    display: flex;
-    justify-content:left;
-    align-self: flex-end;
-    padding: 1rem 0;
+    text-align: right;
+    padding: 1.5rem 0 0 0;
 }
