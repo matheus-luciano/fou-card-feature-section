@@ -1,35 +1,62 @@
+@import 'variables';
+
 @media(min-width: 700px){
-    .grid{
+    .container{
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
-        align-items: center;
-        text-align: center;
+        align-items: center; 
         justify-content: center;
+          
+    }
+    
+    h2{
+        font-size: 40px;
+    }
+
+    p {
+        font-weight: 400;
     }
 
     #box-1{
-        
-        grid-column: 3/5;
+        display: grid;
+        grid-column: 1/7;
+        justify-content: center;
     }
-    
+
+    .text-wrap1{
+        width: 600px;
+        display: inline-block;
+    }
+
+    // Supervisor
     #box-2{
-        min-height: 260px;
+        display: inline-block;
+        height: 250px;
+        width: 400px;
         grid-column: 2/3;
         grid-row: 2/4;
     }
-
+    // team builder
     #box-3{
-        min-height: 260px;
+        
         grid-column: 3/5;
+        justify-content: center;
     }
 
+    
+
+
+    // karma
     #box-4{
-        min-height: 260px;
+        display: inline-block;
+        ;
         grid-column: 3/5;  
     }
-
+    //calculator
     #box-5{
-        max-width: 25em;
+        height: 250px;
+        width: 400px;
+        
         grid-column: 5/6;
         grid-row: 2/4;
     }
